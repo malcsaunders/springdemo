@@ -29,10 +29,10 @@
                 <id>internal-releases</id>
                 <url>https://nexus.dev-build-create.build.finkit.io/repository/releases-libs/</url>
             </repository>
-            <repository>
+            <snapshotRepository>
                 <id>internal-snapshots</id>
                 <url>https://nexus.dev-build-create.build.finkit.io/repository/snapshots-libs/</url>
-            </repository>
+            </snapshotRepository>
         </distributionManagement>
 
 	<dependencies>
