@@ -27,7 +27,7 @@
 	<distributionManagement>
             <repository>
                 <id>internal-releases</id>
-                <url>https://nexus.dev-build-create.build.finkit.io/repository/releases-libs/</url>
+                <url>https://nexus.buildstack-release.build.finkit.io/repository/releases-libs/</url>
             </repository>
             <snapshotRepository>
                 <id>internal-snapshots</id>
