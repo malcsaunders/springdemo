@@ -22,16 +22,17 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
+        <nexus.server.url>https://localhost</nexus.server.url>
 	</properties>
 	
 	<distributionManagement>
             <repository>
                 <id>releases-libs</id>
-                <url>https://nexus.buildstack-release.build.finkit.io/repository/releases-libs/</url>
+                <url>${nexus.server.url}/repository/releases-libs/</url>
             </repository>
             <snapshotRepository>
-                <id>internal-snapshots</id>
-                <url>https://nexus.dev-build-create.build.finkit.io/repository/snapshots-libs/</url>
+                <id>snapshots-libs</id>
+                <url>${nexus.server.url}/repository/snapshots-libs/</url>
             </snapshotRepository>
         </distributionManagement>
 
